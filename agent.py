@@ -3,7 +3,8 @@ import torch
 import random
 import numpy as np
 from collections import deque
-from snake_game_auto import SnakeGameAI, Direction, Point
+# from snake_game_auto import SnakeGameAI, Direction, Point
+from snake_manual_drive import SnakeGameAI, Direction, Point
 from model_RL import layer_Qnet,Trainer
 from helper import plot
 import os
